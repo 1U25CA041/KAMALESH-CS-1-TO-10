@@ -20,4 +20,4 @@ insert into Student values(1001,"Arun", 101), (1002,"Divya", 102),
 
 Select Student.StudentID, Student. Studentname,
 
-Department.Departmentname from Student INNER JOIN Department on Student.DepartmentID=Department.departmentID
+Department.Departmentname from Student INNER JOIN Department on Student.DepartmentID=Department.departmentID ;
